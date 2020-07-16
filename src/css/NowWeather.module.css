@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Jua", sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.condition {
+    font-size: 10rem;
+    text-align: center;
+    margin-top: -300px;
+}
+
+.wimage {
+    margin-top: 100px;
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.desc {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+    .condition {
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .wimage {
+        margin-top: 200px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .condition {
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .cont {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .wimage {
+        margin-top: 200px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .wimage {
+        margin-top: 160px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .condition {
+        margin-top: -170px;
+        font-size: 5rem;
+        text-align: center;
+    }
+    .cont {
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    .desc {
+        position: absolute;
+        left: 10px;
+        bottom: 0px;
+        font-size: 1.7rem;
+    }
+}

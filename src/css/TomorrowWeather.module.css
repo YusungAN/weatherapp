@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Jua", sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.condition {
+    font-size: 10rem;
+    text-align: center;
+    margin-top: -300px;
+}
+
+.wimage {
+    margin-top: 50px;
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dustbtn {
+    font-size: 0.9rem;
+    width: 4.5rem;
+    height: 2.5rem;
+}
+
+.desc {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    font-size: 2rem;
+}
+
+.ddesc {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1024px) {
+    .condition {
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .wimage {
+        margin-top: 200px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ddesc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .condition {
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    .cont {
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        margin-left: 30px;
+        flex-direction: column;
+    }
+
+    .wimage {
+        margin-top: 200px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ddesc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .wimage {
+        margin-top: 100px;
+        display: block;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .condition {
+        margin-top: -170px;
+        font-size: 5rem;
+        text-align: center;
+    }
+    .cont {
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    .ddesc {
+        text-align: center;
+        font-size: 1.0rem;
+    }
+    .desc {
+        position: absolute;
+        left: 10px;
+        bottom: 0px;
+        font-size: 0.8rem;
+    }
+}

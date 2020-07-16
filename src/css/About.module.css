@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#abc0e4 60%, #c7d5dd);
+}
+
+.hr {
+    border: 1px solid black;
+}
+
+.h1 {
+    font-size: 3rem;
+    padding-left: 4vw;
+}
+
+.h2 {
+    padding-left: 5vw;
+    color: red;
+    font-size: 2.5rem;
+}
+
+.ul {
+    padding-left: 7vw;
+    font-size: 1.5rem;
+}
+
+.li {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(#abc0e4 60%, #c7d5dd);
+        overflow-y: visible;
+    }
+    
+    .h1 {
+        font-size: 1.5rem;
+        padding-left: 4vw;
+    }
+    
+    .h2 {
+        padding-left: 5vw;
+        color: red;
+        font-size: 1.25rem;
+    }
+    
+    .ul {
+        padding-left: 7vw;
+        font-size: 1.25rem;
+    }
+
+    .li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+}

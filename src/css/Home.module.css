@@ -44,7 +44,7 @@ body {
     align-items: center;
 }
 
-.mini-cir {
+.minicir {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -59,21 +59,19 @@ body {
     background-color: white;
     margin-left: -100px;
     z-index: 3;
-}
-
-.text {
-    position: relative;
-    font-size: 7em;
-    top: -25px;
-    left: 55px;
-    font-family: 'Jua', sans-serif;
+    text-align: center;
 }
 
 .cir3 {
     margin-left: -100px;
 }
 
-.menu-container {
+.tdnone {
+    text-decoration: none;
+    color: black;
+}
+
+.menucontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,8 +83,65 @@ body {
     animation-iteration-count: infinite;
 }
 
+.mcont {
+    text-decoration: none;
+    display: flex;
+    line-height: 60px;
+}
+
 .menu {
-    margin-right: 50px;
+    /*margin-right: 50px;*/
     font-family: 'Jua', sans-serif;
     font-size: 20px;
+    color: black;
+    
+}
+
+.about {
+    font-size: 20px;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .cloud {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .minicir {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+        z-index: 2;
+    }
+    
+    .cir2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: -100px;
+        z-index: 3;
+        text-align: center;
+    }
+    
+    .cir3 {
+        margin-left: -100px;
+    }
+
+    .menucontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        animation-name: upAndDown2;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
 }

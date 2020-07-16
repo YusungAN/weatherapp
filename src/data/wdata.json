@@ -1,0 +1,80 @@
+{
+    "Thunderstorm": {
+        "toKorean": "번개폭풍",
+        "color": "linear-gradient(#fff2cc 30%, #a6a6a6 70%)",
+        "desc": "시끄러운데 자야지..",
+        "imgId": "none"
+    },
+    "Drizzle": {
+        "toKorean": "이슬비",
+        "color": "linear-gradient(#eaf2fa, #bdd7ee)",
+        "desc": "비 떨어지는 소리 ASMR로 자야지..",
+        "imgId": "Rain"
+    },
+    "Rain": {
+        "toKorean": "비",
+        "color": "linear-gradient(#eaf2fa, #bdd7ee)",
+        "desc": "비 떨어지는 소리 ASMR로 자야지..",
+        "imgId": "Rain"
+    },
+    "Snow": {
+        "toKorean": "눈",
+        "color": "linear-gradient(#ffffff 60%, #abc0e4)",
+        "desc": "눈이 내리니 내 눈도 감기네.. 자야지..",
+        "imgId": "Snow"
+    },
+    "Mist": {
+        "toKorean": "안개",
+        "color": "linear-gradient(#f2f2f2, #d9d9d9)",
+        "desc": "햇빛 안들어와서 자기 좋다.. 자야지..",
+        "imgId": "Fog"
+    },
+    "Smoke": {
+        "toKorean": "안개",
+        "color": "linear-gradient(#f2f2f2, #d9d9d9)",
+        "desc": "햇빛 안들어와서 좋다.. 자야지..",
+        "imgId": "Fog"
+    },
+    "Haze": {
+        "toKorean": "연무",
+        "color": "linear-gradient(#f2f2f2, #d9d9d9)",
+        "desc": "햇빛 안들어와서 좋다.. 자야지..",
+        "imgId": "Fog"
+    },
+    "Fog": {
+        "toKorean": "안개",
+        "color": "linear-gradient(#f2f2f2, #d9d9d9)",
+        "desc": "자기 좋다.. 자야지..",
+        "imgId": "Fog"
+    },
+    "Dust": {
+        "toKorean": "먼지",
+        "color": "#fffbef",
+        "desc": "실내에서 자야지..",
+        "imgId": "Dust"
+    },
+    "Tornado": {
+        "toKorean": "토네이도",
+        "color": "white",
+        "desc": "설마 한국에 토네이도가 오겠냐.. 토네이도 오면 그냥 튀어라...",
+        "imgId": "none"
+    },
+    "Squall": {
+        "toKorean": "스콜",
+        "color": "gray",
+        "desc": "한국에 스콜이 있나.. 모르겠다 그냥 자자..",
+        "imgId": "none"
+    },
+    "Clear": {
+        "toKorean": "맑음",
+        "color": "linear-gradient(#abc0e4, #c7d5dd)",
+        "desc": "청명한 하늘 아래서 낮잠..",
+        "imgId": "Clear"
+    },
+    "Clouds": {
+        "toKorean": "구름",
+        "color": "linear-gradient(#ffffff, #d9d9d9)",
+        "desc": "우중충한데 잠이나 자자..",
+        "imgId": "Cloud"
+    }
+}
