@@ -6,8 +6,6 @@
 
 YusungAN
 
-KDMHS 18WP
-
 ## Description
 
 날씨 웹앱
