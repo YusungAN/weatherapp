@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_KEY_OWM = "1c1f2f7ab384e24ea3701b6b894aa157";
-const API_KEY_DATA_PORTAL = "RtlD2m5xVuZAwMVRdHEny6IH3jXeG3bGW0fRK8dNaQl%2FBqmSltuEIaLWIZgjNSq%2FLFS65fMbXN5Fvt3yPe01%2Bw%3D%3D";
+const API_KEY_OWM = "비밀";
+const API_KEY_DATA_PORTAL = "비밀";
 
 const getNowWeather = (latitude, longitude) => {
     return axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY_OWM}&units=metric`);
